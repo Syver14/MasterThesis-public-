@@ -1,0 +1,15 @@
+parameter,value,description
+mu,0.01,Dynamic viscosity used by the ASTM 152H workbook
+rho_w,0.99821,Water density used by the ASTM 152H workbook
+g,980.7,Gravitational acceleration used by the ASTM 152H workbook
+O35,64.0,Hydrometer bulb volume used in effective-depth correction [cm3]
+O36,29.0,Sedimentation cylinder cross-sectional area used in effective-depth correction [cm2]
+O37,1.0,Meniscus/reading correction used in effective depth
+B_152,7.5,Average ASTM 152H B correction constant from blank/reference-solution calibration
+R35,17.5,Effective-depth calibration value from workbook
+R36,6.6,Effective-depth calibration value from workbook
+U35,0.0,Hydrometer scale calibration value from workbook
+U36,50.0,Hydrometer scale calibration value from workbook
+coef_pct,0.06226000000000001,ASTM 152H percent-finer conversion coefficient
+a1,0.01248,Temperature correction coefficient
+a2,0.00795,Temperature correction coefficient

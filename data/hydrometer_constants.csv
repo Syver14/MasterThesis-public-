@@ -1,0 +1,17 @@
+parameter,value,description
+Vb_cm3,67.0,ASTM 152H bulb volume
+A_cm2,27.8,1 L cylinder cross-sectional area
+L1_at_R0,10.5,Depth to top of bulb at R=0
+L1_at_R60,2.3,Depth to top of bulb at R=60
+scale_top,0.0,Hydrometer scale top
+scale_bot,60.0,Hydrometer scale bottom
+B_152,7.5,Blank/reference-solution calibration constant
+a1,0.01248,Temperature correction coefficient
+a2,0.00795,Temperature correction coefficient
+coef_pct,0.06226,ASTM 152H percent-finer conversion coefficient
+mu_P,0.00978,Dynamic viscosity near 21 C [P]
+rho_w,0.998,Water density near 21 C [g/cm3]
+g_cgs,981.0,Gravitational acceleration [cm/s2]
+rho_s_hydro,2.987,Particle density used for hydrometer calculations [g/cm3]
+water_content_hydro_pct,2.68,Water content used to convert hydrometer wet mass to dry mass [%]
+signal_low_threshold,0.5,QC threshold for corrected hydrometer signal
