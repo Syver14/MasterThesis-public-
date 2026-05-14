@@ -1,19 +1,23 @@
 # Data Files
 
-This folder contains the cleaned input data used by `MGS1_analysis.ipynb`.
+This folder contains the CSV input data used by the main analysis notebook.
 
-- `water_content_raw.csv` - oven-drying measurements for ASTM D2216 water content.
-- `pycnometer_processed.csv` - processed particle-density values exported from the pycnometer workflow.
-- `Pyknometer_simple_template.xlsx` - source workbook used by the notebook for pycnometer input.
-- `dry_sieve_raw.csv` - retained masses for dry sieve tests.
-- `wet_sieve_raw.csv` - retained masses for wet-prepared sieve tests.
+## Files
+
+- `water_content_raw.csv` - oven-drying measurements used to calculate water content.
+- `pycnometer_processed.csv` - processed particle-density measurements from the pycnometer workflow.
+- `dry_sieve_raw.csv` - retained masses from dry sieve tests.
+- `wet_sieve_raw.csv` - retained masses from wet-prepared sieve tests.
 - `hydrometer_bulk_raw.csv` - raw bulk hydrometer readings.
 - `hydrometer_fines_raw.csv` - raw fines-only hydrometer readings.
-- `hydrometer_constants.csv` - constants used in the ASTM 152H hydrometer calculations.
-- `hydrometer_astm152h_constants.csv` - constants extracted from the ASTM 152H workbook in the same form used by the notebook.
-- `Hydrom_ASTM152H.xlsm` - source hydrometer workbook used to load ASTM 152H constants.
-- `loose_tapped_raw.csv` - loose/tapped bulk-density readings.
-- `mgs1_percentiles_long_fox_britt_2023.csv` - MGS-1 reference percentiles.
-- `mineral_composition.csv` - mineralogical composition/density assumptions used for the plausibility check.
+- `hydrometer_constants.csv` - constants used for the hydrometer calculations in the notebook.
+- `hydrometer_astm152h_constants.csv` - ASTM 152H hydrometer constants in CSV form.
+- `loose_tapped_raw.csv` - loose and tapped bulk-density measurements.
+- `mgs1_percentiles_long_fox_britt_2023.csv` - MGS-1 reference particle-size percentiles.
+- `mineral_composition.csv` - mineralogical composition and density assumptions used for the particle-density plausibility check.
 
-The thesis describes the laboratory procedures and method deviations. These files are intended to make the calculation and plotting workflow auditable.
+## Notes
+
+Only CSV files are required to reproduce the analysis in the repository. Source spreadsheets and laboratory templates are not included in this public data folder.
+
+The thesis describes the laboratory procedures, data processing assumptions, and method deviations. These CSV files are provided to make the calculation and plotting workflow auditable.
