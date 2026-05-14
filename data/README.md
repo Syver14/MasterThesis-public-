@@ -4,12 +4,14 @@ This folder contains the cleaned input data used by `MGS1_analysis.ipynb`.
 
 - `water_content_raw.csv` - oven-drying measurements for ASTM D2216 water content.
 - `pycnometer_processed.csv` - processed particle-density values exported from the pycnometer workflow.
+- `Pyknometer_simple_template.xlsx` - source workbook used by the notebook for pycnometer input.
 - `dry_sieve_raw.csv` - retained masses for dry sieve tests.
 - `wet_sieve_raw.csv` - retained masses for wet-prepared sieve tests.
 - `hydrometer_bulk_raw.csv` - raw bulk hydrometer readings.
 - `hydrometer_fines_raw.csv` - raw fines-only hydrometer readings.
 - `hydrometer_constants.csv` - constants used in the ASTM 152H hydrometer calculations.
 - `hydrometer_astm152h_constants.csv` - constants extracted from the ASTM 152H workbook in the same form used by the notebook.
+- `Hydrom_ASTM152H.xlsm` - source hydrometer workbook used to load ASTM 152H constants.
 - `loose_tapped_raw.csv` - loose/tapped bulk-density readings.
 - `mgs1_percentiles_long_fox_britt_2023.csv` - MGS-1 reference percentiles.
 - `mineral_composition.csv` - mineralogical composition/density assumptions used for the plausibility check.

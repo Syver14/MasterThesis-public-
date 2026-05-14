@@ -1,0 +1,13 @@
+Mineral phase,Wt [%],ρ lower [g/cm³],ρ mean [g/cm³],ρ upper [g/cm³],Basis
+Anorthosite proxy,27.1,2.74,2.75,2.76,Anorthite
+Glass-rich basalt,22.9,2.77,2.77,2.77,"Basalt glass (Lima et al., 2020)"
+Bronzite (enstatite),20.3,3.2,3.55,3.9,Enstatite range
+Olivine (forsterite-fayalite),13.7,3.28,3.83,4.39,Olivine range
+Mg-sulfate,4.0,1.68,1.74,1.8,Epsomite-kieserite
+Hydrated silica,3.0,1.9,2.0,2.1,Opal-A
+Magnetite,1.9,5.15,5.18,5.2,Magnetite
+Anhydrite (Ca-sulfate),1.7,2.96,2.97,2.98,Anhydrite
+Fe-carbonate,1.4,3.83,3.85,3.87,Siderite
+Hematite,1.4,5.26,5.27,5.28,Hematite
+Fe-sulfide,1.4,4.83,5.0,5.18,Pyrite-pyrrhotite
+Apatite,1.0,3.16,3.2,3.24,Apatite

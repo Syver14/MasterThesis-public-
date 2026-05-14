@@ -1,0 +1,3 @@
+Nominal mass [g],Cylinder volume [mL],Cylinder diameter [mm],n,ρ_loose [g/cm³],ρ_tapped [g/cm³],e_max [−],e_min [−]
+10,10,15,1,1.237,1.423,1.415,1.100
+10,25,19,2,1.228 ± 0.005,1.440 ± 0.007,1.434 ± 0.009,1.075 ± 0.011
